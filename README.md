@@ -4,7 +4,7 @@ This is a very simple example implementation for [moltar/perl-app](https://regis
 
 ## Usage ##
 
-```
+```bash
 $ export IMAGE=moltar/perl-app.example
 $ docker pull $IMAGE
 $ docker run $IMAGE
