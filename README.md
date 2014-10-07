@@ -5,7 +5,9 @@ This is a very simple example implementation for [moltar/perl-app](https://regis
 ## Usage ##
 
 ```bash
-$ export IMAGE=moltar/perl-app.example
-$ docker pull $IMAGE
-$ docker run $IMAGE
+$ export IMAGE=docker.perl-app.example
+$ git clone git@github.com:moltar/$IMAGE.git
+$ cd $IMAGE
+$ docker build -t $IMAGE .
+$ docker run --rm $IMAGE
 ```
