@@ -9,5 +9,9 @@ $ export IMAGE=docker.perl-app.example
 $ git clone git@github.com:moltar/$IMAGE.git
 $ cd $IMAGE
 $ docker build -t $IMAGE .
-$ docker run --rm $IMAGE
+$ docker run --rm -p5000:5000 $IMAGE
 ```
+
+And direct your browser to:
+
+`http://localhost:5000/`
